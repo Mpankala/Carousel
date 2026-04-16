@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+}
+
+/* Conteneur principal */
+.carousel {
+    position: relative;
+    width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Conteneur des images */
+.slides {
+    display: flex;
+}
+
+/* Chaque image */
+.slide {
+    width: 100%;
+    display: none;
+}
+
+/* Image active */
+.slide.active {
+    display: block;
+}
+
+/* Boutons */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Position boutons */
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Hover */
+button:hover {
+    background: rgba(0,0,0,0.8);
+}
