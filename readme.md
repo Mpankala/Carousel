@@ -14,7 +14,7 @@ Ce projet montre comment créer un carousel d'images interactif et responsive en
 2. Ouvrir `index.html` dans le navigateur
 
 ## 🔗 Voir le projet
-[Voir mon projet](https://github.com/MPANKALA/Carousel)
+[Voir mon projet](https://github.com/MPANKALA/Carousel.git)
 
 ## 👤 Auteur
 MPANKALA
